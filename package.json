@@ -15,9 +15,25 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run prettier && npm run lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rijothedeveloper/nodemodule.git"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "awesome-project"
+  ],
+  "author": "Rijo George",
+  "license": "MIT",
   "devDependencies": {
     "@testing-library/react": "^13.3.0",
     "@types/jest": "^28.1.3",
